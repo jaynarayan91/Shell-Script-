@@ -1,0 +1,17 @@
+#To find the largest b/w three numbers:
+
+echo "enter a: "
+read a
+echo "enter b: "
+read b
+echo "enter c: "
+read c
+if [ $a -gt $b -a $a -gt $c ]
+then
+echo "a is Largest"
+elif [ $b -gt $c -a $b -gt $a ]
+then
+echo "b is Largest"
+else
+echo "c is Largest"
+fi

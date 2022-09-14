@@ -1,0 +1,12 @@
+
+#adding Two numbers
+
+a=40
+b=50
+
+sum=$(( $a + $b))
+
+echo "Sum is : $sum"
+
+
+
